@@ -1,0 +1,10 @@
+{
+  "name": "search-results",
+  "version": "1.0.0",
+  "scripts": {
+    "start:web": "cd web && yarn dev",
+    "start:api": "cd api && yarn start:dev",
+    "start:search": "cd search && go run main.go"
+  },
+  "license": "MIT"
+}
